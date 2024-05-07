@@ -3,7 +3,7 @@ import uuid from "./uuid";
 import { simubase_መረጃ_አስገባ } from "./Engine";
 import Profile from "./Profile";
 import Board from "./Board";
-import Nav from './Nav';
+import Nav from "./Nav";
 
 function SimuBase() {
   const [aknowlegment, setaknowlegment] = useState("");
@@ -72,7 +72,7 @@ function SimuBase() {
 
   return (
     <>
-      <Nav link="Home" path="/home"/>
+      <Nav link="Home" path="/home" />
       <Board />
     </>
   );

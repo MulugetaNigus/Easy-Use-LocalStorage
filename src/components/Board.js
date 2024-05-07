@@ -21,12 +21,6 @@ function Board() {
       <div className="row">
         <div className="col-md-3 text-light d-flex flex-column align-items-start justify-content-start ms-2 bg-light p-4">
           <div className="dashboard d-flex align-items-center justify-content-center">
-            {/* <img
-              src={design}
-              alt=""
-              className="img-fluid mt-1"
-              style={{ width: "50px" }}
-            /> */}
             <h3
               className="border-bottom ms-2 fw-bold"
               style={{ color: "rgb(72,204,55)" }}
@@ -55,7 +49,9 @@ function Board() {
               <span className="fs-3"></span> Introduction
             </a>
           </div>
-          <div className="h4 mb-3">
+
+          {/* UNFINISHED SIDEBARS */}
+          {/* <div className="h4 mb-3">
             <a
               className="ms-3 text-secondary"
               style={{
@@ -74,8 +70,8 @@ function Board() {
             >
               <span className="fs-3"> </span> Get Request
             </a>
-          </div>
-          <div className="h4 mb-3">
+          </div> */}
+          {/* <div className="h4 mb-3">
             <a
               className="ms-3 text-secondary"
               style={{
@@ -94,8 +90,8 @@ function Board() {
             >
               <span className="fs-3"></span> Post Request
             </a>
-          </div>
-          <div className="h4 mb-3">
+          </div> */}
+          {/* <div className="h4 mb-3">
             <a
               className="ms-3 text-secondary"
               style={{
@@ -114,8 +110,8 @@ function Board() {
             >
               <span className="fs-3"> </span> Delete Request
             </a>
-          </div>
-          <div className="h4 mb-3">
+          </div> */}
+          {/* <div className="h4 mb-3">
             <a
               className="ms-3 text-secondary"
               style={{
@@ -134,8 +130,8 @@ function Board() {
             >
               <span className="fs-3"></span> Update Request
             </a>
-          </div>
-          <div className="h4 mb-3">
+          </div> */}
+          {/* <div className="h4 mb-3">
             <a
               className="ms-3 text-secondary"
               style={{
@@ -154,14 +150,14 @@ function Board() {
             >
               <span className="fs-3"></span> Conclusion
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="col-md-8">
           {/* home */}
           {home && <Intro />}
 
           {/* about */}
-          {about && <Get /> }
+          {about && <Get />}
 
           {/* deposite */}
           {deposite && <Post />}
