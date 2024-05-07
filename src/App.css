@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+#card{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  border-style: dotted;
+}
+
+a:hover{
+  transform: scale(1.1);
+}
+
+/* .animated-wait{
+  animation-name: animated-waiting;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animated-waiting {
+  30%{
+    transform: scale(1.1)
+  }
+} */
